@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/netflix.png" />
+        </div>
+        <nav>
+            <ul>
+			<center>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="Review.html">Reviews</a></li>
+				</center>
+            </ul>
+        </nav>
+    </header>
+    <main>
+		<center>
+		<br>
+		<br>
+		<br>
+		<img src="images2/about.png" width="1300px" height="600px">
+
+        <div class="watch">
+            <h1></h1>
+            <span><h4></h4><a onclick="showVideo()"></a></span>
+        </div>
+        <section id="popup" class="popup">
+            <div class="video">
+                <a class="close" onclick="hideVideo()"><img src="images/x.png" /></a>
+                <iframe src="https://www.youtube.com/embed/9VoNgLnjzVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <h4>www.sonypictures.com/movies/sausageparty</h4>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
